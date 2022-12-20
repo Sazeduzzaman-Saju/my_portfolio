@@ -1,0 +1,36 @@
+.page-title {
+  margin-bottom: 75px;
+}
+.page-title img {
+  margin-bottom: 20px;
+}
+.upper-text {
+  color: #4568dc;
+}
+.page-title h2 {
+  font-size: 68px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.page-title p {
+  font-size: 16px;
+}
+.page-title .title-bg {
+  color: rgba(30, 37, 48, 0.07);
+  font-size: 158px;
+  left: 0;
+  letter-spacing: 10px;
+  line-height: 0.7;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
