@@ -4,6 +4,7 @@ import { } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Social from '../Social/Social/Social';
 import { TypeAnimation } from 'react-type-animation';
+import './Profile.css'
 
 
 
@@ -18,7 +19,7 @@ const Profile = () => {
             <div className='col-lg-7 col-sm-12 '>
                 <div className=' profile-sm d-flex justify-content-start align-items-center'>
                     <div className=' text-white infos' >
-                        <h2 className='text-white '>Sazeduzzaman
+                        <h2 className='text-white animation_text'>Sazeduzzaman
                             <span>
                                 <TypeAnimation
                                     sequence={[
@@ -36,11 +37,11 @@ const Profile = () => {
                             </span>
                         </h2>
 
-                        <p className='about-text' style={{ textAlign: 'justify' }}>Hey There, I am Sazeduzzaman Web Application Developer armed with proficient knowledge of the entire web development life cycle and react expertise.</p>
+                        <p className='about-text'>Hey There, I am Sazeduzzaman Web Application Developer armed with proficient knowledge of the entire web development life cycle and react expertise.</p>
                         <div className='contact-in mb-4 '>
                             <Social></Social>
                         </div>
-                        <div>
+                        <div className='footer_button'>
                             <Link class="bn33" to={'/contact'} style={{ textDecoration: 'none' }}>Hire Me</Link>
                             <a class="bn33 ms-2" style={{ textDecoration: 'none' }} role="button" href="https://drive.google.com/file/d/1td1OFDqJd7pR-QnArsy9qQuBEDf4JAtt/view?usp=share_link" target="_blank" rel="noreferrer">Resume</a>
                         </div>

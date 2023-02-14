@@ -22,7 +22,6 @@ const WebDevelopment = () => {
     return (
         <>
             <Swiper
-
                 effect={"coverflow"}
                 grabCursor={true}
                 centeredSlides={true}
@@ -54,8 +53,6 @@ const WebDevelopment = () => {
                         </div>
                     </SwiperSlide>)
                 }
-
-
             </Swiper>
         </>
     );

@@ -34,3 +34,9 @@
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+@media only screen and (max-width: 600px) {
+  .next_page {
+    margin-top: 0 !important;
+  }
+}

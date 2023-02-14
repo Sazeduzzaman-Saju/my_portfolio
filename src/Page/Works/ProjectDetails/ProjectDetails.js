@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import ProfileImage from '../../../comps/Profile/updated(1).jpg';
 import { FaFacebook, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import Pointer from '../../../comps/Pointer/Pointer';
 
 
 const ProjectDetails = () => {
@@ -9,6 +10,7 @@ const ProjectDetails = () => {
     // const [category, client_link, description, img, live_link, server_link, title] = projectData;
     return (
         <div>
+            <Pointer></Pointer>
             <div class="page-title p-5 ">
                 <h2><span class="upper-text">{projectData.title}</span> <span class="title-bg">Projects</span></h2>
             </div>
@@ -74,15 +76,15 @@ const ProjectDetails = () => {
                 </div>
             </div>
             <div className='container'>
-                <div className='row mt-5 mb-3'>
-                    <div className='col-lg-6'>
-                        <div className='text-start'>
+
+                <div className='row'>
+                    <div className='col justify-content-center align-items-center'>
+                        <div className='text-center mt-5 mb-5'>
                             <Link to={'/'} style={{ textDecoration: 'none' }}><button className='bn33'>Home</button></Link>
                         </div>
-
                     </div>
-                    <div className='col-lg-6'>
-                        <div className='text-end '>
+                    <div className='col justify-content-center align-items-center d-sm-none d-md-block'>
+                        <div className='text-center mt-5 mb-5'>
                             <Link to={'/testimonial'} style={{ textDecoration: 'none' }}><button className='bn33'>Next Page</button></Link>
                         </div>
                     </div>

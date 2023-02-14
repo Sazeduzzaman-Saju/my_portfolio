@@ -50,7 +50,7 @@ const Service = () => {
                         </div>
                         <div class="row d-flex justify-content-center align-items-center">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-8 mt-5">
-                                <h5 className='pb-5 upper-text' data-aos="fade-up-right" data-aos-duration="1500">I love to work with...</h5>
+                                <h5 className='pb-5 upper-text text-sm-center ' data-aos="fade-up-right" data-aos-duration="1500">I love to work with...</h5>
                                 <div class="pexagon-menu clear" data-aos="fade-up-left" data-aos-duration="1500">
                                     {skills.map(skill => <div class="pexagon-item">
                                         <div class="pex-item">
@@ -77,15 +77,13 @@ const Service = () => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-lg-6' data-aos="fade-right">
-                                <div className='text-start mt-5 mb-5'>
+                            <div className='col justify-content-center align-items-center'>
+                                <div className='text-center mt-5 mb-5'>
                                     <Link to={'/'} style={{ textDecoration: 'none' }}><button className='bn33'>Home</button></Link>
                                 </div>
-
                             </div>
-                            <div className='col-lg-6' data-aos="fade-left">
-
-                                <div className='text-end mt-5 mb-5'>
+                            <div className='col justify-content-center align-items-center d-sm-none d-md-block'>
+                                <div className='text-center mt-5 mb-5'>
                                     <Link to={'/resume'} style={{ textDecoration: 'none' }}><button className='bn33'>Next Page</button></Link>
                                 </div>
                             </div>

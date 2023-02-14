@@ -121,14 +121,13 @@ const Contact = () => {
                         </div>
                         <div className='container'>
                             <div className='row'>
-                                <div className='col-lg-6' data-aos="fade-up-right" data-aos-duration="100">
-                                    <div className='text-start mt-5 mb-5'>
-
+                                <div className='col justify-content-center align-items-center'>
+                                    <div className='text-center mt-5 mb-5'>
+                                        <Link to={'/'} style={{ textDecoration: 'none' }}><button className='bn33'>Home</button></Link>
                                     </div>
-
                                 </div>
-                                <div className='col-lg-6' data-aos="fade-up-left" data-aos-duration="3000">
-                                    <div className='text-end mt-5 mb-5'><span className='m-3 text-white'></span>
+                                <div className='col justify-content-center align-items-center d-sm-none d-md-block'>
+                                    <div className='text-center mt-5 mb-5'>
                                         <Link to={'/'} style={{ textDecoration: 'none' }}><button className='bn33'>Back Home</button></Link>
                                     </div>
                                 </div>

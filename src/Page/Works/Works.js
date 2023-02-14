@@ -40,15 +40,14 @@ const Works = () => {
                                     <WebDevelopment></WebDevelopment>
                                 </div>
                             </div>
-                            <div className='row mt-5 mb-3'>
-                                <div className='col-lg-6'>
-                                    <div className='text-start' data-aos="fade-up-right" data-aos-duration="1500">
+                            <div className='row'>
+                                <div className='col justify-content-center align-items-center'>
+                                    <div className='text-center mt-5 mb-5'>
                                         <Link to={'/'} style={{ textDecoration: 'none' }}><button className='bn33'>Home</button></Link>
                                     </div>
-
                                 </div>
-                                <div className='col-lg-6'>
-                                    <div className='text-end ' data-aos="fade-up-left" data-aos-duration="1500">
+                                <div className='col justify-content-center align-items-center d-sm-none d-md-block'>
+                                    <div className='text-center mt-5 mb-5'>
                                         <Link to={'/testimonial'} style={{ textDecoration: 'none' }}><button className='bn33'>Next Page</button></Link>
                                     </div>
                                 </div>

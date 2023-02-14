@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+  .about-text,
+  .animation_text {
+    text-align: center !important;
+  }
+  .contact-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
